@@ -8,6 +8,10 @@
 //  */
 html {
   box-sizing: border-box;
+  // Below: Responsive typography using the rem mixin
+  @media screen and (max-width: 767px) {
+    font-size: 87.5%;
+  }
 }
 
 // /**
