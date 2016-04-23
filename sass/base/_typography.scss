@@ -3,4 +3,5 @@
 // Basic typography style for copy text
 // ==========
 body {
+  @include remx(font-size, 16px);
 }
